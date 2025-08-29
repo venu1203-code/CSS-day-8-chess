@@ -21,12 +21,9 @@ body{
     width: 12.5%;
     border: 1px solid black;
 }
-.child1:nth-child(even){
-    /*background-color: rgb(140, 205, 140);*/
-}
-.child:hover{
-    background-color: rgb(163, 12, 98);
-    transition-duration: 5s;
+.child1:hover{
+    background-color: rgba(126, 195, 126, 0.79);
+    transition-duration: 1s;
 }
 img{
     height: 70%;
@@ -55,4 +52,12 @@ img{
 }
 .child88:nth-child(even){
    background-color: rgba(128, 128, 128, 0.347);
+}
+.child1:hover:nth-child(odd){
+    background-color: red;
+}
+.child1:hover(img){
+    height: 60%;
+    width: 60%;
+    padding: 10px;
 }
