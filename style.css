@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-top: 100px;
+}
+.container{
+    border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.child{
+    border: 1px solid black;
+    height: 70px;
+    width: 600px;
+    flex-shrink: 0;
+    display: flex;
+}
+.child1{
+    height: 100%;
+    width: 12.5%;
+    border: 1px solid black;
+}
+.child1:nth-child(even){
+    background-color: rgb(140, 205, 140);
+}
+.child:hover{
+    background-color: grey;
+    transition-duration: 5s;
+}
+img{
+    height: 80%;
+    width: 80%;
+    padding: 2px;
+}
+    
