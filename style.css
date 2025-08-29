@@ -22,15 +22,37 @@ body{
     border: 1px solid black;
 }
 .child1:nth-child(even){
-    background-color: rgb(140, 205, 140);
+    /*background-color: rgb(140, 205, 140);*/
 }
 .child:hover{
-    background-color: grey;
+    background-color: rgb(163, 12, 98);
     transition-duration: 5s;
 }
 img{
-    height: 80%;
-    width: 80%;
-    padding: 2px;
+    height: 70%;
+    width: 70%;
+    padding: 10px;
 }
-    
+.child11:nth-child(odd){
+ background-color: rgba(128, 128, 128, 0.347);
+}
+.child22:nth-child(even){
+   background-color: rgba(128, 128, 128, 0.347);
+}.child33:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.child44:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.child55:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.child66:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.child77:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.child88:nth-child(even){
+   background-color: rgba(128, 128, 128, 0.347);
+}
